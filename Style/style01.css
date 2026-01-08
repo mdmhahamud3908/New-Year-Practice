@@ -1,0 +1,148 @@
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------------- */
+.hero{
+  width: 100%;
+  background: url('../images/banner/banner1.png');
+  background-size: cover;
+  padding: 216px 229px 166px 846px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-text{
+  max-width: 525px;
+  text-align: right;        
+}
+
+.overlay-text h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.overlay-text p{
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.btn{
+  padding: 12px 24px;
+  border: none;
+  background: #ff5959;
+  color: white;
+  cursor: pointer;
+}
+.footer-container{
+  display: flex;
+  margin: 0 auto;
+  padding: 130px;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  gap: 330px;
+}
+.footer-container h2{
+  font-size: 40px;
+  font-weight: bold;
+  max-width: 148px;
+  margin-bottom: 16px;
+}
+.footer-container p{
+  font-size: 16px;
+  max-width: 485px;
+  margin-bottom: 24px;
+
+}
+.footer-container h5{
+  font-size: 16px;
+  max-width: 186px;
+  margin-bottom: 30px;
+}
+.social-icon img{
+  margin-right: 18px;
+}
+.form-class h2{
+  font-size: 25px;
+  margin-bottom: 30px;
+  max-width: 125px;
+}
+.form-class input{
+  max-width: 325px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  background: #f3f3f31d;
+  border: none;
+}
+.s-btn{
+  padding: 20px 36px;
+  border-radius: 8px;
+  background: white;
+  color: red;
+  cursor: pointer;
+  max-width: 170px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  padding: 130px 200px;
+  gap: 87px;
+}
+.main h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 40px;
+}
+.main p{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.main ul{
+  list-style-position: inside;
+}
+.main ul li{
+  font-size: 16px;
+  /* margin-left: 15px;            v */
+}
+
+/* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  https://www.youtube.com/watch?v=bRYwmmLC_Ns*/
+.plan-section h1{
+  text-align: center;
+}
+.plan{
+  display: flex;
+  justify-content: space-evenly;
+}
+.call-section {
+  display: flex;
+  justify-content: center;
+  margin: 130px 230px;
+}
+.call-card{
+  background-image: url("../images/watch.png");
+  padding: 130px 230px;
+  border-radius: 8px;
+  border: none;
+  background-repeat: no-repeat;
+}
+.call-content h2{
+  align-items: start;
+  text-align: start;
+  text-align: start;
+}
+.call-btn{
+  padding: 20px 36px;
+  margin-top: 24px;
+  max-width: 160px;
+  border-radius: ;
+}
